@@ -1,0 +1,41 @@
+*{
+    margin: 8px;
+    padding: 5px;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.button{
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: rgb(16, 8, 58);
+    background-color: rgb(180, 175, 175);
+}
+.textview{
+    width: 270px;
+    height: 50px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50px;
+    background-image: linear-gradient(to right, red, blue);
+    box-shadow: 50px 50px 20px 20px;
+}
+.button:hover{
+    background-image: linear-gradient(to right, rgb(143, 109, 109), rgb(134, 179, 137));
+}
